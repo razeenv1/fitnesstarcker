@@ -465,8 +465,6 @@ def launch_verification_server():
 
     )
 
-resend.api_key = "re_QwvA3qdp_4FgXmQ6pUP4tF5WtsrV4ikb2"
-
 
 def send_verification_email(user_email, username):
     token = str(uuid.uuid4())
@@ -16741,4 +16739,5 @@ if __name__ == "__main__":
                 sys.exit(1)
 
         run_verification_server()
+
         main()
